@@ -8,8 +8,13 @@ i {
 .container {
 
 }
-
-.header {
+.projects-section {
+  padding-bottom: 70px;
+}
+.main-header {
+  text-align: center;
+}
+.projects-header {
 
 }
 .body-text {
@@ -21,7 +26,7 @@ i {
   top: 90%;
   display: flex;
   justify-content: flex-end;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 .icons {
   padding: 10px;
@@ -40,3 +45,32 @@ i {
 .tags {
 
 }
+.side-bar {
+  width: 0%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #F98B34;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: all 600ms cubic-bezier(0.175, 0.885, 0.335, 1);
+
+}
+.side-bar a {
+  position: absolute;
+  right: 10px;
+  top:10px;
+  background-color: #D03979;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.case-content {
+  width: 40%;
+  text-align: center;
+}
+
+
+
+
+

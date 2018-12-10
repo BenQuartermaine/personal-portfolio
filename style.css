@@ -1,0 +1,42 @@
+
+
+i {
+  color: black;
+  font-size: 20px;
+}
+
+.container {
+
+}
+
+.header {
+
+}
+.body-text {
+
+}
+.social-media {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90%;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+.icons {
+  padding: 10px;
+}
+.project-display {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.project-display:last-child {
+  padding-bottom: 20px;
+}
+.case-study {
+
+}
+.tags {
+
+}

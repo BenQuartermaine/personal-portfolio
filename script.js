@@ -1,9 +1,9 @@
 // Opening and closing of slide-out case studies
 function closeCase() {
-  document.getElementById("side-bar").style.width = "0px";
+  document.getElementById("side-bar").style.display = "none";
 }
 function openCase() {
-  document.getElementById("side-bar").style.width = "60%";
+  document.getElementById("side-bar").style.display = "block";
 }
 
 // Listens for esc key when viewing slide-out case studies

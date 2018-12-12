@@ -8,33 +8,39 @@
     <!-- Below line makes the content viewport width on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-  
+    <!-- Font Adelle -->
+    <link rel="stylesheet" href="https://use.typekit.net/eyy1smt.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
   </head>
 
-  <body>
+  <body id="noscroll" class="">
+    <div class="banner" style="background-image: linear-gradient(rgba(213, 229, 251, 1.00) 0%, rgba(235, 244, 253, 1.00) 50%), url(images/mountain.jpg); background-size:cover">
 
     <!-- Social Media Icons -->
-    <div class="social-media">
-      <a href="mailto:benquartermaine3@icloud.com"><i class="icons fas fa-paper-plane" ></i></a>
-      <a href="https://medium.com/@BQWA" target="_blank"><i class="icons fab fa-medium" ></i></a>
-      <a href="https://github.com/benQuartermaine" target="_blank"><i class="icons fab fa-github-square" ></i></a>
+    <div class="social-media social-media-position">
+      <a href="https://medium.com/@BQWA" target="_blank"><i class="icons fab fa-medium-m"></i></a>
+      <a href="https://github.com/benQuartermaine" target="_blank"><i class="icons fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/benjaminquartermaine/"><i class="icons fab fa-linkedin-in"></i></a>
     </div>
+    <div class="social-media contact-me-position ">
+       <a class="link" style="text-decoration: underline;" href="mailto:benquartermaine3@icloud.com">Contact</i></a>
+    </div>
+
+    <!-- Header -->
+    <div class="main-header">
+      <h1>Ben Quartermaine</h1>
+    </div>
+
     <div class="container bio-section">
       <div class="row center-block">
         <div class="col col-xs-12 col-md-8 offset-md-2">
-    <!-- Header -->
-          <div class="main-header">
-            <h1>Ben Quartermaine</h1>
-          </div>
     <!-- Body Text  -->
           <div class="body-text">
-            <p>A healthy amount of idle time is not only good for us but makes us more creative and may be critical to our happiness.
-If you live in a city and don’t actively travel into rural towns or wilderness, the airplane might be the only time you experience this kind of forced disconnection. It feels freeing. It feels like a weight is lifted. That little piece of your brain constantly preoccupied with what you might be missing finally gets a break. A brief rest before it is re-engaged the moment the wheels touch down at your destination.
-
-We need that rest and disconnection. We need our thoughts to wander, unguided and unprompted. We need uninterrupted conversation. And, most importantly, we need extended moments of boredom and the creativity and introspection that comes from it. Unfortunately, those moments are getting harder and harder to come by.
-
-The last time I flew, there was Wi-Fi available on the plane. The modem happened to be down so we couldn’t connect, but it was there. Every plane will soon have Wi-Fi. Being 30,000 feet above the planet will no longer be an escape. We’ll all feel pressure to post our airplane window pics in real-time.</p>
+            <p>Ben Quartermaine is a frontend developer and designer from Australia, currently based between Shanghai and Melbourne. Most recently he served as the product lead for the Mandala Group.</p>
+            <p>Ben lived in Shanghai for over 4 years where he started out writing content and directing livestream productions for a chinese millenial platform, Benku8.</p>
+            <p>He got his start in design at Mandala Group which leverages existing technology to help the underserved lift themselves out of poverty. He lead the product design team which researched extensivly throughout rural China.</p>
+            <p>Most recently, Ben has developed his technical skills, undertaking Le Wagon's full-stack coding bootcamp in an effort to further bridge the communication gap between design and tech.</p>
+            <p>He's available for projects related to WeChat Mini Programs, User Experience design and Web App development.</p>
           </div>
         </div>
       </div>
@@ -50,39 +56,40 @@ The last time I flew, there was Wi-Fi available on the plane. The modem happened
           <!-- Mirror -->
           <div class="project-display">
             <div class="case-study">
-              <a href="javascript:void(0)" onclick="openCase()">Mirror</a>
+              <a class="link" href="javascript:void(0)" onclick="openCase()">Mirror<i id="fas-long" class="fas fa-long-arrow-alt-right"></i></a> 
             </div>
-              <p class="tags">UX Case Study</p>
+              <p class="tags">UX, User Research, Branding</p>
             </div>         
           <!-- Mind Rock -->
           <div class="project-display">
             <div class="case-study">
-              <a href="#">MindRock</a>
+              <a class="link" href="#">MindRock<i id="fas-long" class="fas fa-long-arrow-alt-right"></i></a>
             </div>
-            <p class="tags">WeChat Mini </p>
+            <p class="tags">WeChat Mini Program</p>
           </div>
           <!-- Captain Monseiur Cocktail -->
           <div class="project-display">
             <div class="case-study">
-              <a href="https://captain-monsieur-cocktail.herokuapp.com/">Captain Monsieur Cocktail</a>
+              <a class="link" href="https://captain-monsieur-cocktail.herokuapp.com/">Monsieur Cocktail<i id="fas-long" class="fas fa-long-arrow-alt-right"></i></a>
             </div>
-              <p class="tags">Ruby on Rails Project</p>
+              <p class="tags">Ruby on Rails</p>
           </div>
           <!-- Mandala Group -->
           <div class="project-display">
             <div class="case-study">
-              <a href="http://www.mandalagroup.org/">Mandala Group</a>
+              <a class="link" href="http://www.mandalagroup.org/">Mandala Group<i id="fas-long" class="fas fa-long-arrow-alt-right"></i></a>
             </div>
-              <p class="tags">Social Enterprise</p>
+              <p class="tags">User Research, Product Design</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
   <!-- Slide out sidebar for case studies -->
     <div id="side-bar" class="side-bar">
-      <a class="close-btn-top" href="javascript:void(0)" onclick="closeCase()">Close</a>
+      <a class="link close-btn-top" href="javascript:void(0)" onclick="closeCase()">Close</a>
     
       <div class="content-container">
         <div class="case-header">
@@ -107,13 +114,89 @@ The last time I flew, there was Wi-Fi available on the plane. The modem happened
           <li>Loyalty depended on the ease of purchasing and discounts.</li>
         </ul>
       </div> 
-      <div>
-        <img class="case-image" src="images/persona.png" alt="Rachel Persona">
+      <!-- User flow chart -->
+      <div class="case-image-container">
+        <img src="images/user-flow.png" alt="" class="one-side-by-side case-image">
       </div>
-      <div class="side-by-side">
-        <img src="images/full-category.png" alt="Complete UI designs">
-        <img src="images/full-landing.png" alt="Complete UI designs">
-        <img src="images/full-product.png" alt="Complete UI designs">
+
+    <!-- User Persona Section -->
+      <div class="case-sub-header">
+        <h4>Persona</h4>
+      </div>
+      <div class="case-content">
+        <p>Taking into account the findings from primary research I identified one core persona. I believe there are more, such as ‘the parent shopper’, but this wasn’t evident from my interviews.</p>
+        <p> Sarah—a mid twenties marketing manager, a few years into her career. She wants to look the part, is strapped for time and has a budget she likes to stick to.</p>
+      </div>
+    <!-- User Persona Image -->
+      <div class="case-image-container">
+        <img class="one-side-by-side case-image" src="images/persona.png" alt="Rachel Persona">
+      </div>
+
+
+    <!-- Wireframe (LOFI) Section -->
+      <div class="case-sub-header">
+        <h4>Wireframes</h4>
+      </div>
+      <div class="case-content">
+        <p>The next step was to turn the user flow outlined above into a wireframe—The task is to purchase of a shirt. </p>
+      </div>
+    <!-- Wireframe mockups sitting side-by-side -->
+      <div class="side-by-side-container">
+        <img class="three-side-by-side case-image" src="images/wireframe-landing.png" alt="Complete UI designs">
+        <img class="three-side-by-side case-image" src="images/wireframe-category.png" alt="Complete UI designs">
+        <img class="three-side-by-side case-image" src="images/wireframe-product.png" alt="Complete UI designs">
+      </div>
+
+
+<!-- Style tile and Branding/Color explanation -->
+      <div class="case-sub-header">
+        <h4>Branding & Color</h4>
+      </div>
+      <div class="case-content">
+        <p>Based on user research, 80% of the sample base stated that they really liked clean and minimalist interfaces.</p>
+        <p>The core colors chosen were navy blue and a complementary maroon which symbolize depth and tradition. I coupled these with shades of grey and used the core colors sparingly to enable the negative space and photography to stand out.</p>
+        <p>The typography selection of a sans-serif font (montserrat) was made to give a fresh feel to the website and break away from the traditonal feeling a serif font can give.</p>
+        <p>The message of these selections is that Mirror is an established brand that is in touch with the times. Mirror is showcasing to their existing consumer base that they’re a progressive retailer that is rooted in the fundamentals that made their brand strong.</p>
+      </div>
+      <div class="case-image-container">
+        <img class="one-side-by-side case-image" src="images/style-tile.png" alt="Rachel Persona">
+      </div>
+
+    <!-- Full UI mockups sitting side-by-side -->
+      <div class="case-sub-header">
+        <h4>Full UI</h4>
+      </div>
+      <div class="case-content">
+        <p>Applying the style guidelines to the wireframes, the results were as follows.</p>
+      </div>
+      <div class="side-by-side-container">
+        <img class="three-side-by-side case-image" src="images/full-landing.png" alt="Complete UI designs">
+        <img class="three-side-by-side case-image" src="images/full-category.png" alt="Complete UI designs">
+        <img class="three-side-by-side case-image" src="images/full-product.png" alt="Complete UI designs">
+      </div>
+
+    <!-- User testing results -->
+      <div class="case-sub-header">
+        <h4>User Testing</h4>
+      </div>
+        <div class="case-content">
+          <p>The hi-fidelity wireframes were linked together using InVision and tested on a new set of users.</p>
+          <p>User testing uncovered two issues—Design inconsistency’s regarding the “add to bag” page were noted by most and trouble with the design tool and the fact that only a certain user flow could be accessed.</p>
+          <p>The second was an issue of time, the first however could be rectified easily.</p>
+        </div>
+      <div class="case-image-container">
+        <img src="images/testing-after.png" alt="" class="two-side-by-side case-image">
+        <img src="images/testing-before.png" alt="" class="two-side-by-side case-image">
+      </div>
+
+      <!-- conclusion Section -->
+      <div class="case-sub-header">
+        <h4>Reflection & Closing Comments</h4>
+      </div>
+      <div class="case-content">
+        <p>There are a few things I would improve with this case study:</p>
+        <p>For interviews I would like to first hand watch a users interaction with purchasing a product online.</p>
+        <p>For user testing—encouraging a higher level of commentary, and asking probing questions about each page as the test progressed. Also some kind of warm-up activity or question to put the user at ease. I noticed that most were unsure and reserved in their actions and statements.</p>
       </div>
     </div>
 

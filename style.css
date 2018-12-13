@@ -1,7 +1,7 @@
 
 /* General css declarations */
 p, h1, h4, a, .main-header, .projects-header, .case-study {
-  font-family: "big caslon", serif;
+  font-family: "Franklin Gothic", sans-serif;
   color: rgba(38, 38, 38, 1);
   text-decoration: none;
 }

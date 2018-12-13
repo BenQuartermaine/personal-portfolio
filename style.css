@@ -157,9 +157,9 @@ a, p {
 }
 
 /* Media query section */
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 700px)  {
   #side-bar {
-    width: 100%;
+    width: 0%;
   }
 }
 

@@ -12,16 +12,18 @@ a, p {
 /* Social Media & Contact me—absolute positioned elements*/
 .social-media {
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   padding-right: 5%;
 }
 .social-media-position {
-  top: 5%;
+  bottom: 5%;
+  left: 5%;
 }
 .contact-me-position {
   top: 90%;
+  right: 5%;
 }
 
 /* Toggle class preventing body scroll when side-bar open */
@@ -37,6 +39,7 @@ a, p {
   text-align: center;
   font-family: 'Playfair Display', serif;
   padding-bottom: 40px;
+  padding-top: 5%;
 }
 .bio-section {
   height: 100vh;
@@ -62,7 +65,7 @@ a, p {
 .icons {
   padding: 10px;
   color: rgba(38, 38, 38, 1.00);
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.3s;
 }
 .icons:hover {
@@ -162,6 +165,9 @@ a, p {
 @media only screen and (max-width: 700px)  {
   #side-bar {
     width: 0%;
+  }
+  a, p {
+  font-size: 14px;
   }
 }
 

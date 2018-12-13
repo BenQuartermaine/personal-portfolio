@@ -1,7 +1,10 @@
 
 /* General css declarations */
 p, h1, h4, a, .main-header, .projects-header, .case-study {
-  font-family: "Franklin Gothic", sans-serif;
+  
+  font-family: franklin-gothic-urw-comp, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgba(38, 38, 38, 1);
   text-decoration: none;
 }

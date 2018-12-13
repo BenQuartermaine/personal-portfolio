@@ -98,11 +98,15 @@ a, p {
 }
 
 /* Case study slide view */
+.side-bar p {
+  color: #262626;
+}
 .side-bar {
   width: 0%;
   height: 100vh;
   overflow-y: scroll;
-  background-color: #8395AE;
+  color: #262626;
+  background-color: white;
   position: sticky;
   top: 0px;
   bottom: 0px;
@@ -142,10 +146,10 @@ a, p {
 }
 .case-image {
   padding: 10px;
-  max-height: 50%;
+  height: 50%;
 }
 .one-side-by-side {
-  width: 96%;
+  width: auto;
 }
 .two-side-by-side {
   width: 48%;
@@ -168,6 +172,12 @@ a, p {
   }
   a, p {
   font-size: 14px;
+  }
+  .one-side-by-side {
+  width: 96%;
+  }
+  .case-image {
+    height: 40%;
   }
 }
 

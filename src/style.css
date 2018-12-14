@@ -105,7 +105,7 @@ a, p {
   overflow-y: scroll;
   color: #262626;
   background-color: white;
-  position: sticky;
+  position: fixed;
   top: 0px;
   bottom: 0px;
   left: 0px;

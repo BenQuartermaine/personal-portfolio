@@ -19,5 +19,9 @@ function openCase(media, id) {
 }
 // Listens for esc key when viewing slide-out case studies
 document.body.addEventListener("keydown", function (e) {
-  if (e.keyCode == 27) { closeCase() };
+  if (e.keyCode == 27) { 
+    document.getElementById("side-bar-mirror").style.width = "0%";
+    document.getElementById("side-bar-mindrock").style.width = "0%";
+    document.getElementById('noscroll').classList.remove("noscroll")
+  };
 })

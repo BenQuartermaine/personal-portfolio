@@ -6,9 +6,6 @@
   "author": "Ben Quartermaine <ben.quartermaine3@gmail.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4",
-    "babel-preset-es2015": "^6.24.1",
     "eslint": "^5.10.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
@@ -16,8 +13,5 @@
     "eslint-plugin-react": "^7.11.1",
     "webpack": "^4.27.1",
     "webpack-dev-server": "^3.1.10"
-  },
-  "dependencies": {
-    "webpack-cli": "^3.1.2"
   }
 }

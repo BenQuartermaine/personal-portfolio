@@ -1,0 +1,186 @@
+
+/* General css declarations */
+p, h1, h4, a, .main-header, .projects-header, .case-study {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(38, 38, 38, 1);
+  text-decoration: none;
+}
+a, p {
+  font-size: 16px;
+}
+
+/* Social Media & Contact me—absolute positioned elements*/
+.social-media {
+  position: -webkit-sticky;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+.social-media-position {
+  bottom: 5%;
+  left: 5%;
+}
+.contact-me-position {
+  top: 90%;
+  right: 5%;
+}
+
+/* Toggle class preventing body scroll when side-bar open */
+.noscroll { 
+  overflow: hidden;
+}
+#noscroll {
+  max-height: 200vh;
+}
+
+/* Landing page */
+.main-header {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 5%;
+}
+.bio-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+/* Basic link style */
+.link {
+  color: rgba(38, 38, 38, 1.00);
+  transition: 0.3s;
+}
+.link:hover {
+  color: rgba(38, 38, 38, 0.6);
+}
+
+/* Font-awesome icon styling */
+#fas-long {
+  padding-left: 10px;
+  text-align: center;
+  height: 10px;
+  width: 20px;
+}
+.icons {
+  padding: 10px;
+  color: rgba(38, 38, 38, 1.00);
+  font-size: 20px;
+  transition: 0.3s;
+}
+.icons:hover {
+  color: rgba(38, 38, 38, 0.6);
+}
+
+/* Overview display of prohects section */
+.projects-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  height: 100vh;
+}
+.project-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+.center-block {
+  width: 100%;
+}
+.tags {
+  margin: 0;
+  text-align: right;
+}
+
+/* Case study slide view */
+.side-bar p {
+  color: #262626;
+}
+.side-bar {
+  width: 0%;
+  height: 100vh;
+  overflow-y: scroll;
+  color: #262626;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  transition: all 600ms cubic-bezier(0.175, 0.885, 0.335, 1);
+  z-index: 1;
+}
+#side-bar-mindrock {
+}
+#side-bar-mirror {
+}
+.close-btn-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+/* Case study styling */
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+.case-header {
+  text-align: center;
+}
+.case-sub-header, .case-header, .case-content {
+  padding: 15px;
+}
+.case-content {
+  text-align: left;
+  width: 96%;
+}
+.case-image-container {
+  display: flex;
+  justify-content: center;
+}
+.case-image {
+  padding: 10px;
+  height: 50%;
+}
+.one-side-by-side {
+  width: auto;
+}
+.two-side-by-side {
+  width: 48%;
+}
+.three-side-by-side {
+  width: 32%;
+}
+.case-sub-header {
+  padding-left: 15px;
+}
+.side-by-side-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Media query section */
+@media only screen and (max-width: 700px)  {
+  #side-bar {
+    width: 0%;
+  }
+  a, p {
+  font-size: 14px;
+  }
+  .one-side-by-side {
+  width: 96%;
+  }
+  .case-image {
+    height: 40%;
+  }
+}
+
+
+

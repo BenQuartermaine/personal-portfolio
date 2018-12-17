@@ -1,6 +1,6 @@
 
 /* General css declarations */
-p, h1, h4, a, .main-header, .projects-header, .case-study {
+p, h1, h4, a, .main-header, .projects-header, .case-study, ul {
   font-family: 'century-gothic', 'montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -120,6 +120,8 @@ a, p {
 }
 #side-bar-mirror {
 }
+#side-bar-cloudsuite {
+}
 .close-btn-top {
   position: -webkit-sticky;
   position: sticky;
@@ -142,7 +144,7 @@ a, p {
   padding: 15px;
 }
 .case-content {
-  text-align: left;
+  text-align: justify;
   width: 96%;
 }
 .case-image-container {

@@ -20,7 +20,7 @@ a, p {
   padding-right: 5%;
 }
 .social-media-position {
-  bottom: 5%;
+  top: 90%;
   left: 5%;
 }
 .contact-me-position {
@@ -58,10 +58,12 @@ a, p {
 }
 
 /* Font-awesome icon styling */
-#fas-long {
+#fas-long, .right-arrow {
   padding-left: 10px;
   text-align: center;
   height: 10px;
+}
+#fas-long {
   width: 20px;
 }
 .icons {
@@ -86,7 +88,7 @@ a, p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(38, 38, 38, 0.6);
   padding: 10px 0px;
 }
 .center-block {

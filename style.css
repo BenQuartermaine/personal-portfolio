@@ -164,9 +164,6 @@ a, p {
 .three-side-by-side {
   width: 32%;
 }
-.case-sub-header {
-  padding-left: 15px;
-}
 .side-by-side-container {
   display: flex;
   justify-content: center;

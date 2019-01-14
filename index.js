@@ -14,7 +14,7 @@ function openCase(id) {
   } else {
     side.style.width = "60%";
   }
-  // body.classList.add("noscroll");
+  body.classList.add("noscroll");
 }
 // Listens for esc key when viewing slide-out case studies
 document.body.addEventListener("keydown", function (e) {

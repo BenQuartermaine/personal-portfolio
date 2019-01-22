@@ -35,7 +35,7 @@ document.body.addEventListener("keydown", function (e) {
     keysPressed.splice(-keysPressed.length - 1, keysPressed.length - secretCode.length);
     string = keysPressed.join('');
     if (string === secretCode) {
-      cornify_add()
+      console.log('Welcome, partner!')
     }
   });
 

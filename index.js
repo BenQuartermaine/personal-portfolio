@@ -25,3 +25,17 @@ document.body.addEventListener("keydown", function (e) {
     document.getElementById('noscroll').classList.remove("noscroll");
   }
 });
+
+// KONAMI CODE!!
+  const keysPressed = [];
+  const secretCode = 'benjiboo';
+
+  window.addEventListener('keyup', (e) => {
+    keysPressed.push(e.key);
+    keysPressed.splice(-keysPressed.length - 1, keysPressed.length - secretCode.length);
+    string = keysPressed.join('');
+    if (string === secretCode) {
+      cornify_add()
+    }
+  });
+

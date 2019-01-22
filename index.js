@@ -28,14 +28,20 @@ document.body.addEventListener("keydown", function (e) {
 
 // KONAMI CODE!!
   const keysPressed = [];
-  const secretCode = 'benjiboo';
+  const secretCode = 'helloworld';
 
   window.addEventListener('keyup', (e) => {
     keysPressed.push(e.key);
     keysPressed.splice(-keysPressed.length - 1, keysPressed.length - secretCode.length);
     string = keysPressed.join('');
     if (string === secretCode) {
-      console.log('Welcome, partner!')
+      const answer = 'steam';
+      const riddle = prompt('What goes up when the rain comes down?');
+      if (riddle.includes('steam') || riddle.includes('umbrella')) {
+        alert('nailed it!');
+      } else {
+        alert('unluuucky');
+      }
     }
   });
 

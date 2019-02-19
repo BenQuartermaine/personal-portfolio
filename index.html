@@ -1,425 +1,145 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>BJQ</title>
-    <meta name="description" content="Frontend Developer and UX Designer, based in Melbourne, Australia">
-    <meta name="keywords" content="Ben Quartermaine, developer, User Experience, UX, Ruby on Rails, CSS, HTML, JavaScript, React.js, Redux">
+    <title>BQ.</title>
+    <meta name="description" content="Frontend Developer | Melbourne, Australia">
+    <meta name="keywords" content="Ben Quartermaine, Developer, User Experience, UX, CSS, HTML, JavaScript, React.js, Redux">
     <meta name="author" content="Ben Quartermaine">
     <!-- Below line makes the content viewport width on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <!-- Montserrat Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/qfa4czw.css">
+    <link rel="stylesheet" href="https://use.typekit.net/utj2zqd.css">
+    <!-- Font -->
+
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="images/red.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/lochmara.png"/>
   </head>
 
-  <body id="noscroll" class="">
-    <div class="banner" style="background-image: linear-gradient(rgba(213, 229, 251, 0.5) 0%, rgba(235, 244, 253, 0.5) 50%), url(images/changshu.jpg); background-size: cover;; ">
-    
-    <!-- Social Media Icons -->
-    <div class="social-media social-media-position">
-      <a href="https://medium.com/@BQWA" target="_blank"  alt="medium"><i class="icons fab fa-medium-m"></i></a>
-      <a href="https://github.com/benQuartermaine" target="_blank"  alt="github"><i class="icons fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/benjaminquartermaine/" target="_blank" alt="lkdIn"><i class="icons fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="social-media contact-me-position">
-       <a class="link" style="text-decoration: underline;" href="mailto:benquartermaine3@icloud.com">Contact</i></a>
-    </div>
+  <body>
 
-    <!-- Header -->
-    <div class="main-header">
-      <h1>Ben Quartermaine</h1>
-    </div>
-
-    <div class="container bio-section">
-      <div class="row center-block">
-        <div class="col col-xs-12 col-md-8 offset-md-2">
-    <!-- Body Text  -->
-          <div class="body-text">
-            <p>Ben Quartermaine is a UX Designer that enjoys coding and can speak mandarin—he also loves an overpriced coffee. Currently based in Melbourne, Ben served as a product designer for the <a class="link" style="text-decoration: underline;" target="_blank" href="https://www.mandalagroup.org">Mandala Group</a> for over 3-years.</p>
-            <p>Whilst living in Shanghai, Ben got his start in design at Mandala Group which leverages existing technology to help the underserved lift themselves out of poverty. He lead the product design team, researching extensively throughout rural China.</p>
-            <p>Most recently, Ben has developed his technical skills, undertaking <a class="link" style="text-decoration: underline;" target="_blank" href="https://www.lewagon.com/">Le Wagon's</a> full-stack coding bootcamp in an effort to further bridge the design-tech communication gap.</p>
-            <p>He's available for UX roles that require some technical prowess and chinese cultural understanding.</p>
-            <p>Contact details below.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-      </div>
-    
-    <div class="container projects-section">
-      <div class="row center-block">
-        <div class="col col-xs-12 col-md-8 offset-md-2">
-          <!-- Projects & Case studies -->
-          <div class="projects-header">
-            <h1>Projects</h1>
-          </div>
-          <!-- Mirror -->
-          <div class="project-display">
-            <div class="case-study">
-              <a id="mirror" class="link" href="javascript:void(0)" onclick="openCase(this.id)">Mirror<img src="images/right-arrow.png" class="right-arrow" alt=""></a> 
-            </div>
-              <p class="tags">UX, User Research</p>
-            </div>         
-          <!-- Captain Monseiur Cocktail -->
-          <div class="project-display">
-            <div class="case-study">
-              <a class="link" href="https://captain-monsieur-cocktail.herokuapp.com/" target="_blank">Monsieur Cocktail<img src="images/diagonal.png" id="fas-long" alt=""></a>
-            </div>
-              <p class="tags">Ruby on Rails</p>
-          </div>
-          <!-- Mind Rock -->
-          <div class="project-display">
-            <div class="case-study">
-              <a id="mindrock" class="link" href="javascript:void(0)" onclick="openCase(this.id)">MindRock<img src="images/right-arrow.png" class="right-arrow" alt=""></a>
-            </div>
-            <p class="tags">WeChat Mini Program</p>
-          </div>
-          <!-- Cloudsuite -->
-          <div class="project-display">
-            <div class="case-study">
-             <a id="cloudsuite" class="link" href="javascript:void(0)" onclick="openCase(this.id)">CloudSuite<img src="images/right-arrow.png" class="right-arrow" alt=""></a>
-            </div>
-              <p class="tags">WeChat Mini Program</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-  <!-- Slide out—Mirror Case Study -->
-    <div id="side-bar-mirror" class="side-bar">
-      <a id="mirror" class="link close-btn-top" href="javascript:void(0)" onclick="closeCase(this.id)">Close</a>
-    
-      <div class="content-container">
-        <div class="case-header">
-          <h1>Mirror</h1> 
-        </div>
-        <div class="case-content">
-          <p>
-            Mirror is an established fashion brand that caters to the everyday clothing needs of children through 65 year olds. The design breif consisted of overhauling their brand identity and to help establish an online e-commerce presence to support their brick and mortar operations.
-          </p>
-        </div>
-        <div class="case-sub-header">
-          <h4>Interviews</h4>
-        </div>
-        <div class="case-content">
-          <p>Five in-person interviews were conducted. The age range was 22 to 28 with a gender break down of three females and two males. From these interviews I understood 5 things:</p>
-        </div>
-        <ul>
-          <li>Online option overload is a barrier to purchasing.</li> 
-          <li>Product filters are important.</li>
-          <li>Browsing online and purchasing offline is common.</li>
-          <li>“Would the clothing fit?”</li> 
-          <li>Ease of purchasing and discounts are factors in brand loyalty.</li>
+<!-- LEFT SIDE -->
+    <div class="container">
+      <div class="left-side">
+        <ul class="social-media">
+          <li><a class="link" target="_blank" href="https://github.com/BenQuartermaine">Github</a></li>
+          <li><a class="link" target="_blank" href="https://medium.com/@BQWA">Medium</a></li>
+          <li><a class="link" target="_blank" href="https://linkedin.com/in/benjaminquartermaine/">LinkedIn</a></li>
+          <li>Email</li>
         </ul>
-      </div> 
-      <!-- User flow chart -->
-      <div class="case-image-container">
-        <img src="images/mirror/user-flow.png" alt="" class="one-side-by-side case-image">
       </div>
 
-    <!-- User Persona Section -->
-      <div>
-        <h4 class="case-sub-header">Persona</h4>
-      </div>
-      <div class="case-content">
-        <p>Taking into account these findings I identified one core persona. I believe there are more, such as ‘the parent shopper’, but this wasn’t evident from my interviews.</p>
-        <p>Sarah is a mid twenties marketing manager, a few years into her career. She wants to look the part, is strapped for time and has a budget she likes to stick to.</p>
-      </div>
-    <!-- User Persona Image -->
-      <div class="case-image-container">
-        <img class="one-side-by-side case-image" src="images/mirror/persona.png" alt="Rachel Persona">
-      </div>
+<!-- RIGHT SIDE -->
+      <div class="right-side">
+        <h1 class="header">Ben Quartermaine</h1>
+        <h3 class="headline">Frontend Developer, Melbourne</h3>
+        <div class="title-line"></div>
 
 
-    <!-- Wireframe (LOFI) Section -->
-      <div>
-        <h4 class="case-sub-header">Wireframes</h4>
-      </div>
-      <div class="case-content">
-        <p>The next step was to turn the user flow outlined above into a wireframe. The task is to purchase a shirt. </p>
-      </div>
-    <!-- Wireframe mockups sitting side-by-side -->
-      <div class="side-by-side-container">
-        <img class="three-side-by-side case-image" src="images/mirror/wireframe-landing.png" alt="Complete UI designs">
-        <img class="three-side-by-side case-image" src="images/mirror/wireframe-category.png" alt="Complete UI designs">
-        <img class="three-side-by-side case-image" src="images/mirror/wireframe-product.png" alt="Complete UI designs">
+<!-- INTRODUCTION SECTION -->
+        <p class="body-content">
+          I know what you’re here for. You want to know if we’re a good fit for each other. I’ve got 5 things for you—Work, Tools, Me, Books, Contact.
+        </p>
+        <p class="body-content">
+          Have at it.
+        </p>
+
+        <div class="sub-line"></div>
+
+<!-- BACKGROUND SECTION -->
+        <h3 class="sub-header">Background</h3>
+        <p class="body-content">
+          I got my start in product design at <a class="link" target="_blank" href="https://mandalagroup.org">Mandala Group</a>, a company I co-founded in China with two highly inspirational individuals. My role was to co-ordinate the product design team in the research phase. This meant spending weeks at a time in rural Hunan, in the center of China. 
+        </p>
+        <p class="body-content">
+          The job role included interviewing village officals and farmers and synethsizing the teams findings into a research report and design breif. The result was <a class="link" href="https://www.facebook.com/mandalagroup.org/videos/2435534026672788/" target="_blank">MoFarm</a>. 
+        </p>
+        <p class="body-content">
+          Quickly I learnt that understanding the problem space is one aspect, and another equally as important was to be able to communicate the problem space to the whole team. 
+        </p>
+        <p class="body-content">
+          Acknowledging this I have recently undertaken <a class="link" target="_blank" href="#">Le Wagon’s</a> full-stack coding bootcamp to bridge my own knowledge gap between tech and design and relocated to Melbourne, Australia where I am seeking a full-time frontend developer opportunity in a mission oriented company. 
+        </p>
+        <div class="sub-line"></div>
+
+<!-- WORK SECTION -->
+        <h3 class="sub-header">Work</h3>
+        <p class="body-content">
+          Some projects I have done using React.js include Gify and Catch of The Day. Both are deployed and in operation.
+        </p>
+        <p class="body-content">
+          With focus on different aspects of UX, I have completed the following pieces of work. MoFarm: Rural China research guide, Mirror Fashion and a teardown of Envato Tuts+. These three projects emphasize my thought process and UX principal application.
+        </p>
+        <p class="body-content">
+          I’ve also helped build a few WeChat Mini Programs, most notably MindRock.
+        </p>
+        <p class="body-content">
+          Currently I am working on a personal project called theUXof.xyz. A series of teardowns that explore the user experience of individuals, businesses and products and what make them delightful (or not!).
+        </p>
+
+        <div class="sub-line"></div>
+
+<!-- TOOLS SECTION -->
+        <h3 class="sub-header">Tools</h3>
+        <p class="body-content">
+          Tools I use to build stuff include: HTML, CSS, JavaScript (ES6), React.js, Redux, Webpack, Material Design, Firebase, Netlify and Figma.
+        </p>
+
+        <div class="sub-line"></div>
+
+<!-- OTHER THAN WORK SECTION -->
+        <h3 class="sub-header">Other than work</h3>
+          <p class="body-content">
+            I like to rock climb (the kind without a harness), surf and stay pretty active. I’m a huge believer in screen-free time and interacting with green spaces—living in Shanghai has drilled this luxury home!
+          </p> 
+          <p class="body-content">
+            I enjoy cooking and am currently burning my way through <a class="link" target="_blank" href="#">Bill’s Everyday Asian</a>, and love to step around and smash coffee’s on the weekends.
+          </p> 
+          <p class="body-content">
+            I put a lot of time into learning Mandarin, so I aggressively try to maintain this skill by learning <a class="link" href="https://www.youtube.com/watch?v=dXdYi2mHBjI" target="_blank">chinese love songs</a>.
+          </p>
+        <div class="sub-line"></div>
+
+<!-- BOOKS SECTION -->
+        <h3 class="sub-header">Books</h3>
+        <p class="body-content">
+          I also like to read and am currently fascinated with plant medicine, political systems and how cultures evolve over time.
+        </p> 
+        <p class="body-content">
+          These are a few books I’ve read lately that I think are worth mentioning.
+        </p>
+        <ol>
+          <li>How to change your mind, Michael Plilen</li>
+          <li>Homo Deus, Yuval Noah Harrari</li>
+          <li>Homo Sapiens, Yuval Noah Harrari</li>
+          <li>The Design of Everyday Things, Don Norman</li>
+          <li>Animal Farm, George Orwell</li>
+          <li>1984, George Orwell</li>
+          <li>12 rules for life, Jordan B. Peterson</li>
+        </ol>
+
+        <div class="sub-line"></div>
+
+<!-- CONTACT SECTION -->
+        <h3 class="sub-header">Contact</h3>
+        <p class="body-content">
+          I write sporadically on <a class="link" target="_blank" href="https://medium.com/@BQWA">Medium</a>, push all my code to <a class="link" target="_blank" href="https://github.com/BenQuartermaine">Github</a> and fluff myself up on <a class="link" target="_blank" href="https://linkedin.com/in/benjaminquartermaine/">LinkedIn</a>
+. 
+        </p>
+        <p class="body-content">
+          For work, China and other enquiries, drop me an <a class="link" target="_blank" href="#">email</a>.
+        </p>
+        <div class="sub-line"></div>
       </div>
 
-<!-- Style tile and Branding/Color explanation -->
-      <div>
-        <h4 class="case-sub-header">Branding & Color</h4>
-      </div>
-      <div class="case-content">
-        <p>Based on user research, 80% of the sample base stated that they really liked clean and minimalist interfaces.</p>
-        <p>The core colors chosen were navy blue and a complementary maroon which symbolize depth and tradition. I coupled these with shades of grey and used the core colors sparingly to enable the negative space and photography to stand out.</p>
-        <p>The typography selection of a sans-serif font (montserrat) was made to give a fresh feel to the website and break away from the traditonal feeling a serif font can give.</p>
-        <p>The message of these selections is that Mirror is an established brand that is in touch with the times. Mirror is showcasing to their existing consumer base that they’re a progressive retailer that is rooted in the fundamentals that made their brand strong.</p>
-      </div>
-      <div class="case-image-container">
-        <img class="one-side-by-side case-image" src="images/mirror/style-tile.png" alt="Rachel Persona">
-      </div>
-
-    <!-- Full UI mockups sitting side-by-side -->
-      <div>
-        <h4 class="case-sub-header">Full UI</h4>
-      </div>
-      <div class="case-content">
-        <p>Applying the style guidelines to the wireframes, the results were as follows.</p>
-      </div>
-      <div class="side-by-side-container">
-        <img class="three-side-by-side case-image" src="images/mirror/full-landing.png" alt="Complete UI designs">
-        <img class="three-side-by-side case-image" src="images/mirror/full-category.png" alt="Complete UI designs">
-        <img class="three-side-by-side case-image" src="images/mirror/full-product.png" alt="Complete UI designs">
-      </div>
-
-    <!-- User testing results -->
-      <div>
-        <h4 class="case-sub-header">User Testing</h4>
-      </div>
-        <div class="case-content">
-          <p>The hi-fidelity wireframes were linked together using InVision and tested on a new set of users.</p>
-          <p>User testing uncovered two issues—Design inconsistency’s regarding the “add to bag” page were noted by most and trouble with the design tool and the fact that only a certain user flow could be accessed.</p>
-          <p>The second was an issue of time, the first however could be rectified easily.</p>
-        </div>
-      <div class="case-image-container">
-        <img src="images/mirror/testing-after.png" alt="" class="<!-- <!-- two-side --> -->-by-side case-image">
-        <img src="images/mirror/testing-before.png" alt="" class="two-side-by-side case-image">
-      </div>
-
-      <!-- conclusion Section -->
-      <div>
-        <h4 class="case-sub-header">Reflection & Closing Comments</h4>
-      </div>
-      <div class="case-content">
-        <p>There are a few things I would improve with this case study:</p>
-        <p>For interviews I would like to first hand watch a users interaction with purchasing a product online.</p>
-        <p>For user testing, encouraging a higher level of commentary from the user, and asking probing questions about each page as the test progressed. Also some kind of warm-up activity or question to put the user at ease. I noticed that most seemed unsure and reserved in their actions and statements.</p>
-        <p style="text-align: center;"><em>END</em></p>
-      </div>
+      <a class="link" target="_blank" href="#"></a>
     </div>
 
-
-
-
-
-<!-- MINDROCK CASE STUDY -->
-   <div id="side-bar-mindrock" class="side-bar">
-      <a id="mindrock" class="link close-btn-top" href="javascript:void(0)" onclick="closeCase(this.id)">Close</a>
-    
-      <div class="content-container">
-        <div class="case-header">
-          <h1>MindRock</h1>
-        </div>
-        
-        <div class="case-content">
-          <p>MindRock was the final project of Le Wagon’s Full-stack Coding Bootcamp. The time frame was 10 days in total.</p>
-        </div>
-  <!-- USER PROBLEMS AND PROJECT GOALS -->
-        <div>
-          <h4 class="case-sub-header">User Problem & Project Goals</h4>
-        </div>
-
-        <div class="case-content">
-         <p>In the ever growing and cut-throat job market that Chinese millennials face, confidence toward handling work place situations is their key to success, but many find it hard to define their brand of confidence. They understand it in theory but have trouble applying it, labeling themselves as introverted or ‘Zhai’.</p>
-         <p>The goal of this project was to use technology to give recent university graduates a tool to bridge the university to workplace skills gap.</p>
-       </div>
-
-  <!-- ROLE & SCOPE OF THE PROJECT -->
-        <div>
-          <h4 class="case-sub-header">Role & Scope</h4>
-        </div>
-        <div class="case-content">
-         <p>Our team consisted of four people. My role was product owner and User Experience design. Benjamin was our lead developer, Avery our backend developer and Claire was the frontend developer.</p>
-        </div>
-  <!-- USER RESEARCH -->
-        <div>
-          <h4 class="case-sub-header">User Research</h4>
-        </div>   
-        
-        <div class="case-content">
-         <p>We spent the first day talking to a range of adults between the age of 23 and 28. The target users were all Chinese millennials.</p>
-
-         <p>About half were university students and the other half are actively seeking employment or currently in their first position after graduating university.</p>
-
-         <p>Our core research question was “How do you feel about the transition from being a student to a full-time employee?”</p>
-
-          <p>From this we learnt a few things:</p>
-          <ul>
-            <li>Recent graduates feel like they don’t understand workplace norms.</li>
-            <li>The standard for professionally communicating and teamwork are poorly understood.</li>
-            <li>Some felt like they were stagnant or in a rut in terms of learning.</li>
-           </ul>
-        </div>
-
-        <div>
-          <h4 class="case-sub-header">Sketches</h4>
-        </div> 
-<!-- SKETCHES NOTEBOOK -->
-        <div class="case-image-container case-image">
-          <img src="images/mindrock/ideation-sketch.jpg" alt="" class="two-side-by-side">
-          <img src="images/mindrock/main-flow.jpg" alt="" class="two-side-by-side">
-        </div>
-        <div class="case-image-container case-image">
-          <img src="images/mindrock/show-page.jpg" alt="" class="two-side-by-side">
-        </div>
-
-
-<!-- WIREFRAMES FROM FIGMA -->
-        <div>
-          <h4 class="case-sub-header">Wireframes</h4>
-        </div> 
-
-        <div class="side-by-side-container">
-          <img class="three-side-by-side case-image" src="images/mindrock/wf-index.jpg" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/mindrock/wf-show.jpg" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/mindrock/wf-journal.jpg" alt="Complete UI designs">
-        </div>
-
-        <div class="side-by-side-container">
-          <img class="three-side-by-side case-image" src="images/mindrock/wf-individual.jpg" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/mindrock/wf-team.jpg" alt="Complete UI designs">
-        </div>
-
-
-<!-- SOLUTION VIDEO -->
-
-        <div>
-          <h4 class="case-sub-header">Prototype</h4>
-        </div> 
-
-        <div class="case-content">
-          <p>In our solution we decided to tackle points two and three—Attempting to provide a solution that increases teamwork and breaks individuals out of their rut.</p>
-          <p>You can interact with the actual mini-program <a target="_blank" class="link" style="text-decoration: underline;" href="http://www.mindrock.me/">here</a> (You’ll need WeChat).</p>
-
-          <p>Alternatively, this video walks through the Mini-Program.</p>
-
-          <div class="one-side-by-side case-image-container">
-            <iframe src="https://res.cloudinary.com/davoctnex/video/upload/v1544749045/MindRock.me.mp4" width="100%" height="50%" frameborder="0"></iframe>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="case-sub-header">User Testing & Comments</h4>
-        </div> 
-
-        <div class="case-content">
-         <p>MindRock gives users the option to complete a challenge in a team, and to share completed challenges with a friend, however, we realized from user testing that the hook to retain users is not sticky enough.</p>
-         <p>“I’ve got nothing to lose” said one user.</p>
-         <p>A possible solution could be negative contracts—for example, pledging a dollar amount at the beginning of a challenge and only receiving it back if they complete all the challenges—or a clearly defined goals system to incentivize the user to see a 7-day challenge through.</p>
-         <p style="text-align: center;"><em>END</em></p>
-        </div>
-      </div>
-    </div>
-
-<!-- Cloudsuite Case Study -->
-    <div id="side-bar-cloudsuite" class="side-bar">
-      <a id="cloudsuite" class="link close-btn-top" href="javascript:void(0)" onclick="closeCase(this.id)">Close</a>
-      <div class="content-container">
-        <div class="case-header">
-          <h1>CloudSuite</h1>
-        </div>
-          <div>
-           <h4 class="case-sub-header">User Problem & Project Goals</h4>
-         </div>
-         <div class="case-content">        
-           <p>In China, there is no convenient digital platform to rent a jet for private use.</p>
-           <p>In a five day sprint, the goal of this project was to apply the Airbnb model to the private jet rental industry and to translate the experience into a WeChat Mini Program.</p>
-           <p>It was done as part of the Le Wagon full-stack coding bootcamp.</p>
-        </div>
-        
-          <h4 class="case-sub-header">Roles & Tools</h4>
-
-        <div class="case-content">
-           <p>I was the front-end designer and developer. Claire was the lead developer, Avery, the PM and Benjamin was the backend developer.</p>
-           <p>We used Figma to collaboratively design the interface. Ruby on Rails for the backend and WeChat’s development environment for the frontend.</p>
-        </div>
-        <div class="case-sub-header">
-          <h4>User Stories</h4>
-        </div>
-
-        <div class="case-content">
-          <p>We focused our time on building the following user stories:</p>
-          <ul>
-            <li>As a user I want to be able to list my jet for others to rent.</li>
-            <li>As a user I want to be able to rent a jet.</li>
-            <li>As a user I want to be able to leave reviews.</li>
-            <li>As a user I want to be able to share a booking with someone else.</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="case-sub-header">Sketches</h4>
-        </div>
-
-        <div class="case-image-container">
-          <img src="images/cloudsuite/1-sketch-cloudsuite.jpg" alt="" class="one-side-by-side case-image">
-        </div>
-        <div class="case-image-container">
-          <img src="images/cloudsuite/2-sketch-cloudsuite.jpg" alt="" class="one-side-by-side case-image">
-        </div>
-        
-        <div>
-          <h4 class="case-sub-header">Final Solution</h4>
-        </div>
-        <div class="case-content">
-          <p>We chose a navy blue and a deep red to symbolize strength and tradition. Feedback on this was positive and that these colors aligned with the idea of the Mini Program.</p>
-        </div>
-        <div class="side-by-side-container">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/1-index.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/2-results.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/3-show.png" alt="Complete UI designs">
-        </div>
-
-        <div class="side-by-side-container">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/4-confirmation.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/5-success.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/6-account.png" alt="Complete UI designs">
-        </div>
-
-        <div class="side-by-side-container">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/7-submit-review.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/8-review-success.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/9-reviews.png" alt="Complete UI designs">
-        </div>
-
-        <div class="side-by-side-container">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/10-list.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/11-show.png" alt="Complete UI designs">
-          <img class="three-side-by-side case-image" src="images/cloudsuite/12-successful-listing.png" alt="Complete UI designs">
-        </div>
-        
-        <div class="case-content">
-          <p>The dashboard page is designed to enable the user to navigate through viewing, listing and booking a jet as well as seeing their history. The idea here is convenience. The Mini Program is intended to aid the user in booking and minimize the time they spend in the app, as we have assumed they’re busy individuals with a high financial opportunity cost.</p>
-        </div>
-
-        <div> 
-          <h4 class="case-sub-header">Project Results</h4>
-        </div>
-
-        <div class="case-content">
-          <p>The core objective was the adaption of the Airbnb model to WeChat Mini Programs, however given a longer time frame we would have liked to conduct real user interviews and user test our final solution. </p>
-
-          <p>A question raised when presenting CloudSuite was “Are users willing to undertake this kind of service on a mobile device?”. An interesting question that lay at the core of this model.</p>
-
-          <p>Some additional features in the product backlog are a map functionality, detailing where jets are located and an add-to-calendar function once a user has booked a jet.</p>
-          <p style="text-align: center;"><em>END</em></p>
-        </div>
-      </div>
-    </div>
 
     <!-- Bootstrap  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- Javascript page -->
-    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>

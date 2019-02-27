@@ -78,11 +78,17 @@ body, .container {
 .book-list > * {
   text-transform: capitalize;
 }
+
+/* Accounting for phones in portrait mode*/
 @media screen and (max-width: 600px) {
   .container {
     margin: 0px !important;
     flex-direction: column;
     overflow: hidden;
+  }
+  .headline {
+    text-align: left !important;
+    font-size: 18px;
   }
   .right-side {
     padding: 20px 15px;

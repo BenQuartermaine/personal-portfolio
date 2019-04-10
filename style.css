@@ -1,6 +1,58 @@
 body, .container {
   background: #F6F4EE;
 }
+
+img {
+  width: 500px;
+  cursor: url(images/Ellipse.png), auto;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.case-study {
+  text-align: center;
+  position: relative;
+}
+
+.case-study-name {
+  transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+.case-study-headline {
+  font-size: 36px;
+  font-family: courier-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.case-study-desc {
+  font-size: 18px;
+  font-family: courier-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.case-study:hover .case-photo {
+  opacity: 0.2;
+  transition: 0.3s ease;
+}
+
+.case-study:hover .case-study-name {
+  opacity: 1;
+  transition: 0.3s ease;
+  color: black;
+}
+
 .container {
   display: flex;
   margin-top: 100px;
@@ -21,7 +73,7 @@ body, .container {
 }
 .social-media {
   font-size: 18;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   list-style: none;
 }
 .link {
